@@ -8,8 +8,7 @@ public class Boss
     
     public void Magic(int pp)
     {
-          while(mp >= 5 )
-          {
+         
 
         if(mp >= 5 )
         {
@@ -31,7 +30,6 @@ public class Boss
 
 
 
-}
 
 
 public class Test : MonoBehaviour
@@ -58,18 +56,10 @@ public class Test : MonoBehaviour
         // }
 
         Boss lastboss = new Boss ();
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);        
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);
-        lastboss.Magic(5);           
-               
+        for(int i = 0; i<=10; i++ )
+        {
+            lastboss.Magic(5);
+        }
         
 
 
